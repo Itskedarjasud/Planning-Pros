@@ -1,0 +1,172 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#title{
+ background-color: #FAAB78;
+ 
+}
+.container-fluid{
+    padding: 2% 10% 0;
+}
+    .navbar-brand{
+        width: 5rem;
+        
+       
+    }
+
+    .nav-link{
+        font-size: 1.5rem;
+        
+    }
+
+    /* Set a meetting button */
+   .set-meeting {
+    margin: 7.5%;
+   }
+
+.row{ 
+    padding: 5%;
+}
+.our-creations{
+    width: 100%;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+ font-size: 3rem;
+ line-height: 1.5;
+ padding: 5% 0;
+}
+
+h2{
+font-size: 2rem;
+ line-height: 1.5;
+
+}
+
+h3{
+    font-size: 2rem;
+ line-height: 1.5;
+}
+/* 
+features */
+
+.company-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   
+  }
+
+  .Intro{
+    font-family: 'Josefin Sans', sans-serif,bold;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10% ;
+    text-align: center;
+    
+  }
+  .tagline{
+    font-family: 'Josefin Sans', sans-serif,bold;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10% ;
+    text-align: center;
+  }
+.Features{
+     width: 100%;
+   padding: 5% 10% ;
+   
+}
+
+/* eventreview section */
+#ClientReview{
+    text-align: center;
+    background-color: #FAAB78;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 3%;
+}
+#eventreview{
+    padding: 0 10% 5% ;
+    text-align: center ;
+    background-color: #FAAB78;
+    line-height: 1.5;
+    
+}
+.eventreview-image{
+    width: 12%;
+    border-radius: 100% ;
+    margin: 8%;
+}
+
+#press{
+    background-color: #FAAB78;
+    text-align: center;
+    
+}
+.logo_press{
+    width: 15%;
+    margin: 3%;
+}
+
+/* pricing section  */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2% ;
+}
+.card-header{
+    background-color: #FAAB78;
+}
+
+
+#cta{
+    background-color: #FAAB78;
+    text-align: center;
+    padding: 5% 10%;
+    
+}
+
+.last{
+    font-size: 4rem;
+}
+.lastb{
+    outline: #FAAB78;
+    margin: 5%;
+}
+
+
+#footer{
+    text-align: center;
+    padding: 5% 10%;
+}
+.faicon{
+    margin: 3% 2%;
+    color: #FAAB78;
+    font-size: 2rem;
+}
+
+
+
+@media (max-width=1000px) {
+    h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+.our-creations{
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+}
+    
+
+}
